@@ -1,0 +1,21 @@
+{
+  "schema": "classroom50/classroom/v1",
+  "name": "CS Test",
+  "short_name": "cs-test",
+  "term": "",
+  "org": "orillian-c50-test",
+  "team": {
+    "id": 18438160,
+    "slug": "classroom50-cs-test"
+  },
+  "teams": {
+    "instructor": {
+      "id": 18438161,
+      "slug": "classroom50-cs-test-instructor"
+    },
+    "ta": {
+      "id": 18438162,
+      "slug": "classroom50-cs-test-ta"
+    }
+  }
+}
