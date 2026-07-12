@@ -1,4 +1,139 @@
 {
   "schema": "classroom50/scores/v1",
-  "assignments": {}
+  "assignments": {
+    "greet": {
+      "type": "individual",
+      "entries": [
+        {
+          "owner": "Orillian",
+          "submissions": [
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "cs-test",
+              "assignment_type": "individual",
+              "owner": "orillian",
+              "submission": "submit/2026-07-12T16-16-13Z-d652966",
+              "commit": "https://github.com/orillian-c50-test/cs-test-greet-orillian/commit/d65296691d8c59bc7a0f14639a2442579cf2f188",
+              "release": "https://github.com/orillian-c50-test/cs-test-greet-orillian/releases/tag/submit%2F2026-07-12T16-16-13Z-d652966",
+              "review": "https://github.com/orillian-c50-test/cs-test-greet-orillian/compare/1d794ed8ef06fbf10eeb3ff2f00d573480d66d77...d65296691d8c59bc7a0f14639a2442579cf2f188",
+              "datetime": "2026-07-12T16:16:00Z",
+              "graded_at": "2026-07-12T16:16:28Z",
+              "score": 13,
+              "max-score": 13,
+              "tests": [
+                {
+                  "test-name": "imports",
+                  "passed": true,
+                  "score": 1,
+                  "max-score": 1
+                },
+                {
+                  "test-name": "greets Alice (included)",
+                  "passed": true,
+                  "score": 2,
+                  "max-score": 2
+                },
+                {
+                  "test-name": "greets World (exact)",
+                  "passed": true,
+                  "score": 2,
+                  "max-score": 2
+                },
+                {
+                  "test-name": "greets Bob (regex)",
+                  "passed": true,
+                  "score": 1,
+                  "max-score": 1
+                },
+                {
+                  "test-name": "greets from fixture files",
+                  "passed": true,
+                  "score": 2,
+                  "max-score": 2
+                },
+                {
+                  "test-name": "explicit exit code",
+                  "passed": true,
+                  "score": 1,
+                  "max-score": 1
+                },
+                {
+                  "test-name": "pytest suite",
+                  "passed": true,
+                  "score": 4,
+                  "max-score": 4
+                }
+              ],
+              "submitted_by": {
+                "username": "Orillian",
+                "id": 823192
+              }
+            },
+            {
+              "schema": "classroom50/result/v1",
+              "classroom": "cs-test",
+              "assignment_type": "individual",
+              "owner": "orillian",
+              "submission": "submit/2026-07-12T16-14-56Z-31f40cc",
+              "commit": "https://github.com/orillian-c50-test/cs-test-greet-orillian/commit/31f40cc5d6a8176c374672fe4c06d2ed682ad5ed",
+              "release": "https://github.com/orillian-c50-test/cs-test-greet-orillian/releases/tag/submit%2F2026-07-12T16-14-56Z-31f40cc",
+              "review": "https://github.com/orillian-c50-test/cs-test-greet-orillian/compare/1d794ed8ef06fbf10eeb3ff2f00d573480d66d77...31f40cc5d6a8176c374672fe4c06d2ed682ad5ed",
+              "datetime": "2026-07-12T16:14:43Z",
+              "graded_at": "2026-07-12T16:15:09Z",
+              "score": 2,
+              "max-score": 13,
+              "tests": [
+                {
+                  "test-name": "imports",
+                  "passed": true,
+                  "score": 1,
+                  "max-score": 1
+                },
+                {
+                  "test-name": "greets Alice (included)",
+                  "passed": false,
+                  "score": 0,
+                  "max-score": 2
+                },
+                {
+                  "test-name": "greets World (exact)",
+                  "passed": false,
+                  "score": 0,
+                  "max-score": 2
+                },
+                {
+                  "test-name": "greets Bob (regex)",
+                  "passed": false,
+                  "score": 0,
+                  "max-score": 1
+                },
+                {
+                  "test-name": "greets from fixture files",
+                  "passed": false,
+                  "score": 0,
+                  "max-score": 2
+                },
+                {
+                  "test-name": "explicit exit code",
+                  "passed": true,
+                  "score": 1,
+                  "max-score": 1
+                },
+                {
+                  "test-name": "pytest suite",
+                  "passed": false,
+                  "score": 0,
+                  "max-score": 4
+                }
+              ],
+              "submitted_by": {
+                "username": "Orillian",
+                "id": 823192
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
 }
